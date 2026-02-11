@@ -3368,6 +3368,20 @@ PROJECTS: List[Project] = [
         extra_credit=["Email/webhook alerts", "Historical SLA charts", "Theme support"],
         related=["Latency & Jitter Monitor", "Local Observability Stack"],
         sources=[SourceRef("Our chat")],
+    ),
+    Project(
+        name="Renpy parser",
+        domain="parser",
+        summary="Tool to parse renpy games",
+        key_features=[
+            "Read renpy project",
+            "Parse renpy project",
+            "Interface to analysis project"
+        ],
+        concepts=["Observability", "API Design", "Testing"],
+        extra_credit=["Graphing", "Theme support"],
+        related=["File Sync Tool"],
+        sources=[SourceRef("Our chat")],
     )
 ]
 
